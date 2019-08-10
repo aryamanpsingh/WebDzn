@@ -31,9 +31,8 @@ body {
   padding: 9px 10px !important;
 }
 
-#home-section::before {
+#home-section {
   background: url("../images/architectural-architectural-design-architecture-921322.jpg");
-  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
@@ -78,7 +77,7 @@ body {
   color: #00273d;
   border-style: solid;
   border-width: 5px 0 5px 0;
-  border-color: #015a94;
+  border-color: #24598d;
 }
 
 .container-3 {
@@ -87,7 +86,7 @@ body {
   align-items: center;
   justify-content: space-between;
   color: white;
-  background: #e14a35;
+  background: #d65649;
   border-style: solid;
   border-width: 0 0 5px 0;
   border-color: black;
@@ -149,7 +148,7 @@ body {
 }
 
 .contact-button {
-  background-color: #015a94;
+  background-color: #24598d;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -204,7 +203,7 @@ ul.features {
 
 footer {
   color: white;
-  background: #015a94;
+  background: #24598d;
   border-width: 8px 0 0 0;
   border-top-color: white;
   border-style: solid;

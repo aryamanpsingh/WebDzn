@@ -31,7 +31,7 @@ body {
   padding: 9px 10px !important;
 }
 
-#home-section:before {
+#home-section::before {
   background: url("../images/architectural-architectural-design-architecture-921322.jpg");
   opacity: 0.8;
 }

@@ -1,19 +1,180 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Bootstrap 4 Starter Pack</title>
-    </head>
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nunito:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Bootstrap 4 Starter Pack</title>
 
-    <body>
-        <h1>Bootstrap 4.0.0-beta Starter</h1>
+    <script>
+      document.onload(function() {
+        $(function() {
+          var scrolled = false;
+          if (scrolled == false) {
+            $(window).scroll(function() {
+              var y = $(this).scrollTop();
+              if (y > 1 && scrolled == false) {
+                scrolled = true;
+                $(".container-2")
+                  .stop(true, false)
+                  .css({ opacity: 0, display: "flex" })
+                  .animate(
+                    {
+                      opacity: 1
+                    },
+                    2000,
+                    function() {
+                      $(this).css({ display: "flex" });
+                    }
+                  );
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </head>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          Our Name
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#explore-head-section" class="nav-link">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#create-head-section" class="nav-link">Create</a>
+            </li>
+            <li class="nav-item">
+              <a href="#share-head-section" class="nav-link">Share</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner">
+          <div class="container-1">
+            <div class="box-empty"></div>
+            <div class="box-1">
+              Your Idea
+            </div>
+            <div class="box-2">
+              <img src="images/x-sign.png" />
+            </div>
+            <div class="box-3">
+              <a href="#">
+                <img src="images/logo.png" />
+              </a>
+            </div>
+            <div class="box-0">
+                <div class="feature-list">
+              <ul class="features">
+                <li class="feature">
+                  <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aliquid, facilis.</strong>
+                </li>
+                <li class="feature">
+                 <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aliquid, facilis.</strong>
+                </li>
+              </ul>
+              <div class="button"><button class="contact-button">Contact</button></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header id="sample-section">
+      <div class="dark-overlay">
+        <div class="sample-inner">
+          <div class="container-2">
+            <div class="container-2-box-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, molestias?
+            </div>
+            <div class="container-2-box-2">
+              <img src="images/template.png" />
+            </div>
+            <div class="container-2-box-3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header id="text-section">
+      <div class="light-overlay">
+        <div class="container-3">
+          <div class="c3-box-1">
+            <h3>Box Seven</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              magnam veniam rerum, minima ducimus non itaque nostrum sequi, est
+              unde voluptates corrupti quod odit ipsum tempora cumque sit
+              dolorem! Odit accusamus, et quis ullam repellat cumque perferendis
+              pariatur similique. Nulla voluptas adipisci natus qui odit ex
+              quisquam rerum esse laboriosam!
+            </p>
+          </div>
+          <div class="c3-box-2">
+            <h3>Box Eight</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus totam tempora at repellat quasi quo ipsum inventore
+              laudantium facilis, aliquam neque provident cupiditate excepturi
+              ex reiciendis. Optio vero alias totam repellendus, inventore
+              laudantium reprehenderit a nostrum. Pariatur, quasi explicabo!
+              Autem necessitatibus facere facilis repudiandae vero nesciunt, quo
+              enim ducimus impedit.
+            </p>
+          </div>
+          <div class="c3-box-3">
+            <h3>Box Nine</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              dolorum sequi adipisci voluptatem unde harum ut, inventore
+              laboriosam maiores distinctio quis debitis odit velit doloribus,
+              magnam, cupiditate sapiente placeat. Earum similique aliquid
+              officia velit sapiente totam omnis tempora nobis! Atque voluptatem
+              pariatur magni nam repellat, recusandae sapiente consectetur.
+              Numquam, earum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer id="footer-section">
+      <div class="dark-overlay">
+        <div class="container">
+            <div class="footer-contents">
+          Copyright A great name :) ® 2019</div>
+        </div>
+      </div>
+    </header>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.navbar {
+  min-height: 80px;
+  border-bottom: #333399;
+  opacity: 0.8;
+  background: white;
+  color: white; }
+
+.navbar a {
+  color: #00273d; }
+
+.navbar-brand {
+  padding: 0 0 15px;
+  height: 80px;
+  line-height: 80px;
+  font-family: "Homemade Apple", cursive; }
+
+.navbar .navbar-brand img {
+  height: 80px; }
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important; }
+
+#home-section {
+  background: url("../images/architectural-architectural-design-architecture-921322.jpg"); }
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px; } }
+
+.logo {
+  flex: 4; }
+
+.nav {
+  display: flex;
+  align-items: center; }
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white; }
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: white;
+  color: #00273d;
+  border-style: solid;
+  border-width: 5px 0 5px 0;
+  border-color: #015a94; }
+
+.container-3 {
+  padding: 5%;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background: #e14a35;
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  border-color: black; }
+
+.container-3 div {
+  display: inline-block;
+  padding: 2%; }
+
+.box-1 {
+  order: 3;
+  flex: 2;
+  font-size: 85px;
+  text-align: right;
+  text-shadow: 4px 4px 8px #000000;
+  font-family: "Homemade Apple", cursive; }
+
+.box-2 {
+  order: 4;
+  flex: 1;
+  text-align: center; }
+
+.box-2 img {
+  max-height: 80px; }
+
+.box-3 {
+  order: 5;
+  flex: 2;
+  text-align: left; }
+
+.box-3 img {
+  max-height: 250px; }
+
+.box-empty {
+  order: 2;
+  flex: 2; }
+
+.box-0 {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-end;
+  order: 1;
+  flex: 3;
+  font-size: 18px; }
+
+.button {
+  padding-top: 10px;
+  text-align: right; }
+
+.contact-button {
+  background-color: #015a94;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  opacity: 0.9;
+  width: 280px; }
+
+ul.features {
+  list-style-type: circle; }
+
+.container-2-box-1 {
+  flex: 1;
+  font-size: 30px;
+  padding-right: 50px; }
+
+.container-2-box-2 {
+  flex: 3;
+  text-align: right; }
+
+.cloud {
+  max-width: 100%; }
+
+@media screen and (max-width: 900px) {
+  .container-1 {
+    display: block;
+    text-align: center; }
+  .container-2 {
+    display: block;
+    text-align: center; }
+  .box-1 {
+    padding-top: 5%;
+    text-align: center; }
+  .box-2 {
+    padding-top: 5%;
+    text-align: center; }
+  .box-3 {
+    padding-top: 5%;
+    text-align: center; }
+  .box-0 {
+    padding-top: 10%; } }
+
+footer {
+  color: white;
+  background: #015a94;
+  border-width: 8px 0 0 0;
+  border-top-color: white;
+  border-style: solid; }
+
+.footer-contents {
+  padding: 50px;
+  text-align: center; }

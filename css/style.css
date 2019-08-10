@@ -168,14 +168,15 @@ body {
 
 /* Add styles to the form container */
 .form-container {
-  max-width: 300px;
+  max-width: 400px;
   padding: 10px;
   background-color: white;
+  color: #00273d;
 }
 
 /* Full-width input fields */
 .form-container input[type="text"],
-.form-container input[type="password"] {
+.form-container textarea {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -192,7 +193,7 @@ body {
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #4caf50;
+  background-color: #24598d;
   color: white;
   padding: 16px 20px;
   border: none;

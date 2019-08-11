@@ -7,7 +7,7 @@ body {
   border-bottom: #333399;
   opacity: 0.8;
   background: white;
-  color: white;
+  color: #00273d;
 }
 
 .navbar a {
@@ -25,11 +25,14 @@ body {
 .navbar .navbar-brand img {
   height: 70px;
 }
-
+.navbar-toggler {
+  color: #00273d;
+}
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 23px;
   padding: 9px 10px !important;
+  color: #00273d;
 }
 
 #home-section {

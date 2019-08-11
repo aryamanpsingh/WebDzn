@@ -13,33 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>WebDzn</title>
 
-    <script>
-      document.onload(function() {
-        $(function() {
-          var scrolled = false;
-          if (scrolled == false) {
-            $(window).scroll(function() {
-              var y = $(this).scrollTop();
-              if (y > 1 && scrolled == false) {
-                scrolled = true;
-                $(".container-2")
-                  .stop(true, false)
-                  .css({ opacity: 0, display: "flex" })
-                  .animate(
-                    {
-                      opacity: 1
-                    },
-                    2000,
-                    function() {
-                      $(this).css({ display: "flex" });
-                    }
-                  );
-              }
-            });
-          }
-        });
-      });
-    </script>
+    
   </head>
 
   <body>
